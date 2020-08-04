@@ -1,0 +1,169 @@
+{
+    "type": "object",
+    "title": "Basic Information About You",
+    "properties": {
+        "full_name": {
+            "type": "string",
+            "title": "Full Name",
+            "br_required": true
+        },
+        "birth_date": {
+            "type": "number",
+            "title": "Date of Birth",
+            "format": "date",
+            "br_required": true
+        },
+        "reg_address_section": {
+            "type": "string",
+            "title": "Home Address",
+            "format": "title"
+        },
+        "reg_address_description": {
+            "type": "string",
+            "title": "This is the address the clerk will match to the voter file to see if you're eligible to vote by mail.",
+            "format": "hidden-field"
+        },
+        "reg_address": {
+            "type": "string",
+            "title": "Street Address",
+            "br_required": true
+        },
+        "reg_city": {
+            "type": "string",
+            "title": "Town/City",
+            "br_required": true
+        },
+        "reg_zipcode": {
+            "type": "number",
+            "title": "Zip Code",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "email": {
+            "type": "string",
+            "title": "Email Address",
+            "format": "email",
+            "br_required": true
+        },
+        "phone": {
+            "type": "number",
+            "title": "Phone Number",
+            "format": "phone-us",
+            "br_required": true
+        },
+        "mailing_info_title": {
+            "type": "string",
+            "title": "Mailing Address",
+            "format": "title"
+        },
+        "mailing_info_title_checkbox": {
+            "type": "string",
+            "title": "Address where your ballot will be mailed (if different from the home address listed above)",
+            "format": "hidden-field"
+        },
+        "mail_address": {
+            "type": "string",
+            "title": "Mailing Address: Street Address"
+        },
+        "mail_city": {
+            "type": "string",
+            "title": "Mailing Town/City"
+        },
+        "mail_state": {
+            "type": "string",
+            "title": "Mailing State"
+        },
+        "mail_zip": {
+            "type": "number",
+            "title": "Mailing Zip Code",
+            "format": "zipcode"
+        },
+        "supervised_voting_checkbox": {
+            "type": "boolean",
+            "title": "Supervised Ballot. Check this box if you live in an institution where supervised balloting will be conducted.",
+            "format": "checkbox"
+        },
+        "election_type_title": {
+            "type": "string",
+            "title": "Purpose of Application",
+            "format": "title"
+        },
+        "election_type_description": {
+            "type": "string",
+            "title": "This application is for (check one):",
+            "format": "hidden-field"
+        },
+        "general_election_type": {
+            "type": "boolean",
+            "title": "General Election",
+            "format": "checkbox"
+        },
+        "primary_checkbox": {
+            "type": "boolean",
+            "title": "Primary Election",
+            "format": "checkbox"
+        },
+        "referendum": {
+            "type": "boolean",
+            "title": "Referendum",
+            "format": "checkbox"
+        },
+        "election_date": {
+            "type": "number",
+            "title": "Date of Election",
+            "format": "date"
+        },
+        "political_party": {
+            "type": "string",
+            "title": "For Primary only: specify party in which applicant is eligible to vote"
+        },
+        "military_title": {
+            "type": "string",
+            "title": "This section to be used by Members of the Armed Forces and Electors Temporarily Residing Overseas only:",
+            "format": "title"
+        },
+        "military_checkbox": {
+            "type": "boolean",
+            "title": "Check this box if: I am a member of the armed forces or the spouse or dependent living where such member is stationed who due to military contingencies needs additional time to vote by absentee ballot. I therefore request that a blank absentee ballot be issued to me beginning 90 days before the regular election. I understand that if the military contingency ceases to exist, I may apply for an additional ballot with candidates printed on it.",
+            "format": "checkbox"
+        },
+        "overseas_checkbox": {
+            "type": "boolean",
+            "title": "I am an elector of the above municipality who is (1) temporarily living or expects to be living or traveling outside the territorial limits of the United States before and on election day or (2) a member of the armed forces or the spouse or dependent living where such member is stationed, and request that a blank absentee ballot, together with a complete list of candidates and questions be issued to me ( 45 days before an election). If this application reaches the municipal clerk after the time of availability of regular absentee ballots, I understand that I will be sent a regular ballot with candidates printed on it.",
+            "format": "checkbox"
+        },
+        "military_email_checkbox": {
+            "type": "boolean",
+            "title": "For military and overseas voters only: Check this box if you want your ballot to be emailed to you",
+            "format": "checkbox"
+        },
+        "military_email": {
+            "type": "string",
+            "title": "For military and overseas voters only: if you checked yes, list the email address where your ballot will be sent",
+            "format": "email"
+        },
+        "assistance_provider_title": {
+            "type": "string",
+            "title": "Declaration of person providing assistance",
+            "format": "title"
+        },
+        "assistance_provider_description": {
+            "type": "string",
+            "title": "(Completed by any person who assists with completion of the application) ",
+            "format": "hidden-field"
+        },
+        "assistance_provider_name": {
+            "type": "string",
+            "title": "Assistance Provider: Full Name"
+        },
+        "assistance_provider_phone": {
+            "type": "number",
+            "title": "Assistance Provider: Phone Number",
+            "format": "phone-us"
+        },
+        "assistance_provider_address": {
+            "type": "string",
+            "title": "Assistance Provider: Residence Address"
+        }
+    }
+}
