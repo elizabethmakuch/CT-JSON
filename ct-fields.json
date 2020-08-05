@@ -23,6 +23,7 @@
             "title": "This is the address the clerk will match to the voter file to see if you're eligible to vote by mail.",
             "format": "hidden-field"
         },
+        //street number, street name and town separated here and will need to be combined into one to fit the form field//
         "reg_address": {
             "type": "string",
             "title": "Street Address",
