@@ -1,0 +1,28 @@
+{
+	"fieldnames": [
+	{
+		"name": "Check Box12",
+		"maps_to": "military"
+	},
+	{
+		"name": "Check Box13",
+		"maps_to": "absent"
+	},
+	{
+		"name": "Check Box14",
+		"maps_to": "illness"
+	},
+	{
+		"name": "Check Box15",
+		"maps_to": "religious_commitment"
+	},
+	{
+		"name": "Check Box17",
+		"maps_to": "election_official"
+	},
+	{
+		"name": "Check Box18",
+		"maps_to": "disability"
+	}
+	]
+}
