@@ -1,0 +1,44 @@
+{
+    "fieldnames": [
+        {
+            "name": "Text1",
+            "maps_to": "full_name"
+        },
+        {
+            "name": "Date of Birth",
+            "maps_to": "birth_date"
+        },
+        {
+            "name": "Street Address",
+            "maps_to": "reg_address"
+        },
+        {
+            "name": "City Town",
+            "maps_to": "reg_city"
+        },
+        {
+            "name": "Text2",
+            "maps_to": "reg_zipcode"
+        },
+        {
+            "name": "Email Address",
+            "maps_to": "email"
+        },
+        {
+            "name": "Telephone No",
+            "maps_to": "phone"
+        },
+        {
+            "name": "Mailing Address 1",
+            "maps_to": "mail_address"
+        },
+        {
+            "name": "Mailing City",
+            "maps_to": "mail_city"
+        },
+        {
+            "name": "Mailing State",
+            "maps_to": "mail_state"
+        }
+    ]
+}
