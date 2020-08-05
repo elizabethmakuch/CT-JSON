@@ -6,7 +6,7 @@
         },
         {
             "name": "Date of Birth",
-            "maps_to": "birth_date"
+            "maps_to": "birthday"
         },
         {
             "name": "Street Address",
